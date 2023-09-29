@@ -9,9 +9,9 @@ def cal(lis):
                 lis[-i]=int(str(lis[-i])[0])+int(str(lis[-i])[1])
                 
     sum=0
-    print(lis)
+   
     for k in lis:
         sum= sum+int(k)
     return 10 -sum%10
 
-print(cal(7992739871))
+print(cal(62))
