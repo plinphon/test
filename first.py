@@ -12,6 +12,9 @@ def cal(lis):
    
     for k in lis:
         sum= sum+int(k)
-    return 10 -sum%10
+    sum =10 -sum%10
+    if sum ==10:
+        sum=0
+    return sum
 
 print(cal(62))
